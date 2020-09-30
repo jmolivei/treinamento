@@ -1,0 +1,11 @@
+CREATE SEQUENCE produto_sequence
+MINVALUE 1
+START WITH 1
+INCREMENT BY 1;
+
+CREATE TABLE produto
+ (	id NUMBER, 
+ nome VARCHAR2(50),
+ descricao VARCHAR2(50),
+ preco NUMBER(10,2)
+);
